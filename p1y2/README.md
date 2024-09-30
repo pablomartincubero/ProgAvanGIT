@@ -19,7 +19,18 @@ El break lo que hace es salir del bucle for, acaba con el bucle y le pone fin
 6-¿Que hace el pass?
 El pass es una declaracion nula que no realiza ninguna accion
 
-7-¿?
+7-¿Para que sirve la función de print?
+Con esta funcion puedes mostrar en pantalla lo intrucido entre las comillas
 
 # EJERCICIO 2
-1-¿?
+1-¿Como puedoconvertir un texto en minusulas?
+Usando la función .lower haces que el texto se convierta en minusculas
+
+2-¿Porque inicializa la variable count_replacements a 0?
+Para definir un punto de inicio: Inicializar a 0 puede indicar que estás comenzando desde un estado neutral.
+
+3-¿Para que sirve la operación +=?
+Se utiliza para ir incrementando de 1 en 1 la variable count_replacements y vaya contando el numero de veces que se repiten las palabras.
+
+4-¿Para que sirve el return?
+Se utiliza para devolver un valor al lugar donde se llama a la función
