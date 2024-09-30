@@ -35,7 +35,7 @@ Se utiliza para ir incrementando de 1 en 1 la variable count_replacements y vaya
 4-¿Para que sirve el return?
 Se utiliza para devolver un valor al lugar donde se llama a la función
 
-#EJERCICIO 3
+# EJERCICIO 3
 
 1-¿Como defines una función en python?
 Para definir una función debes escribirla como: def nombre de la funcion (parametros que quieras pasarle a la función) 
@@ -49,4 +49,4 @@ Esta linea guarda en la variable primes todos los valores de los numeros primos 
 4-¿Que hace la instrucción if str(prime) == str(prime)[::-1]:?
 Para saber que una palabra es un palindromo tienen que leerse iguales de delante hacia  atras que atras hacia delante, con [::-1] lo que hace es dar la vuelta al texto, poniendo al principio lo que estaba en el final y con el str compara un texto con el otro modificado y en caso de que sean iguales esta función devuelve un 1.
 
-#EJERCICIO 4
+# EJERCICIO 4
