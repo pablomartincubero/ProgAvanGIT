@@ -19,9 +19,6 @@ El break lo que hace es salir del bucle for, acaba con el bucle y le pone fin
 6-¿Que hace el pass?
 El pass es una declaracion nula que no realiza ninguna accion
 
-7-¿Para que sirve la función de print?
-Con esta funcion puedes mostrar en pantalla lo intrucido entre las comillas
-
 # EJERCICIO 2
 1-¿Como puedoconvertir un texto en minusulas?
 Usando la función .lower haces que el texto se convierta en minusculas
@@ -50,3 +47,25 @@ Esta linea guarda en la variable primes todos los valores de los numeros primos 
 Para saber que una palabra es un palindromo tienen que leerse iguales de delante hacia  atras que atras hacia delante, con [::-1] lo que hace es dar la vuelta al texto, poniendo al principio lo que estaba en el final y con el str compara un texto con el otro modificado y en caso de que sean iguales esta función devuelve un 1.
 
 # EJERCICIO 4
+
+1-¿Que hace la instrucción map(int, entrada.split())?
+La función split() divide la cadena en una lista de subcadenas (strings) en cada espacio. Por ejemplo, si entrada es "1 2 -3 4", el resultado sería ["1", "2", "-3", "4"].
+
+map(int, entrada.split()) aplica la función int a cada elemento de la lista obtenida por entrada.split(), convirtiendo cada subcadena a un entero. Ejemplo: map(int, ["1", "2", "-3", "4"]) produce un iterable de enteros: 1, 2, -3, 4.
+
+Finalmente, list(...) convierte el iterable producido por map() en una lista de Python.
+
+Por lo tanto, list(map(int, entrada.split())) genera una lista de enteros a partir de la cadena de entrada.
+
+2-¿Para sumar numeros de una lista?
+sum(lista)
+
+3-¿Como saber si un elemento de un alista es unico?
+return len(lista) == len(set(lista))
+
+ # EJERCICIO 5
+
+
+
+
+
