@@ -78,7 +78,7 @@ len() cuenta todos los caracteres, incluidos espacios, signos de puntuación y c
 ¿Qué función tiene max?
 max() en Python se utiliza para encontrar el valor máximo en un iterable
 
-¿Que hace el is?
+¿Que hace el comando is?
 se utiliza para comprobar si cadena1 y cadena2 son el mismo objeto en memoria.
 is: Es un operador de identidad en Python que verifica si dos variables apuntan al mismo objeto en memoria. Es diferente del operador ==, que comprueba si los valores de los objetos son iguales.
 
