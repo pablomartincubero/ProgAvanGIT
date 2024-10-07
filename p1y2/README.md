@@ -64,7 +64,11 @@ sum(lista)
 return len(lista) == len(set(lista))
 
  # EJERCICIO 5
+¿Que es tareas y para que se crea?
+Es un tipo de dato: tareas[] es una lista, que es una estructura de datos en Python que permite almacenar una colección de elementos. Las listas son dinámicas, lo que significa que pueden cambiar de tamaño (puedes añadir o eliminar elementos).
 
+¿Que significa except ValueError?
+Este bloque se ejecuta si se produce un error de tipo ValueError dentro del bloque try. El ValueError es un tipo específico de excepción que se lanza cuando una operación o función recibe un argumento con el tipo correcto pero con un valor inapropiado.
 
 
 
