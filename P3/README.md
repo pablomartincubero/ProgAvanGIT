@@ -26,5 +26,6 @@ la f antes de la cadena indica que es una f-string (o cadena de formato en ingl�
 
 Esta línea de código está creando un objeto current_time a partir de una cadena de texto time_str utilizando el método from_string de la clase Time. En otras palabras, está convirtiendo una representación en texto de una hora en un objeto de tiempo que puede ser manipulado y utilizado en el programa.
 
-7-¿Cómo manejar excepciones específicas en Python?
+7-¿Cómo puedo manejar excepciones específicas en Python?
+
 Con la línea except ValueError. En este caso, está diseñada para capturar y manejar cualquier excepción de tipo ValueError que pueda ocurrir en el bloque try anterior. Esto es útil para evitar que el programa se detenga abruptamente debido a errores que se pueden prever y manejar adecuadamente.
