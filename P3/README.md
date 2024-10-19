@@ -1,4 +1,4 @@
-#PREGUNTAS A LA IA SOBRE LA PRACTICA 3
+# PREGUNTAS A LA IA SOBRE LA PRACTICA 3
 
 1-¿Qué son las clases en python?
 
