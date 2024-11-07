@@ -14,10 +14,10 @@ class CMatFloat:  # Clase que representa una matriz dinámica 1D/2D
         self._m_nFilas = nFilas
         self._m_nColumnas = nColumnas
 
-    def CrearMatriz1D(self, nElementos):  # Método para crear una matriz unidimensional de ceros.
+    def CrearMatriz1D(self, nElementos):  
         self.CrearMatriz(1, nElementos)
 
-    def Introducir(self):  # Método para introducir los elementos (tipo decimal) de la matriz.
+    def Introducir(self):  
         if not self.Existe():
             print("No hay una matriz creada.")
             return
