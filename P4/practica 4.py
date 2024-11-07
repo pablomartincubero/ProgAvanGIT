@@ -23,9 +23,9 @@ class CMatFloat:  # Clase que representa una matriz dinámica 1D/2D
             return
         for i in range(self._m_nFilas):
             for j in range(self._m_nColumnas):
-                self._Matriz[i][j] = leer_float(f"Introduce el valor para la posición ({i},{j}): ")
+                self._Matriz[i][j] = leer_float(f"Introduzca valor de la posición ({i},{j}): ")
 
-    def Mostrar(self):  # Método para mostrar los elementos de la matriz.
+    def Mostrar(self):  
         if self.Existe():
             print("Matriz actual:")
             print(self._Matriz)
@@ -33,14 +33,13 @@ class CMatFloat:  # Clase que representa una matriz dinámica 1D/2D
             print("No hay una matriz creada para mostrar.")
 
     def Existe(self):
-        """Método que verifica si la matriz está creada y no está vacía."""
         return self._Matriz is not None
 
-    def SumarMatrices(self, otra_matriz):  # Método que suma la matriz actual con otra matriz.
+    def SumarMatrices(self, otra_matriz):  
         if self.Existe() and otra_matriz.Existe() and self._Matriz.shape == otra_matriz._Matriz.shape:
             return self._Matriz + otra_matriz._Matriz
         else:
-            print("Error: Las dimensiones de las matrices no coinciden.")
+            print("Error: Dimensiones de la matriz no son iguales.")
             return None
 
     def RestarMatrices(self, otra_matriz):  # Método que resta la matriz actual con otra matriz.
