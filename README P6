@@ -1,0 +1,22 @@
+#CUESTIONES HECHAS A LA IA PARA HACER LA PRACTICA 6
+
+1-¿Cómo se diferencian las clases Empleado y Cliente en su implementación?
+Analiza los atributos y métodos específicos que tiene cada clase derivada en comparación con la clase base Ficha.
+
+2-¿Qué ocurre si intentas agregar un objeto que no es de tipo Empleado ni Cliente al RegistroDiario?
+Prueba este escenario y analiza el manejo de excepciones en el método agregar_persona.
+
+3-¿Qué método especial se utiliza para combinar dos registros diarios, y cómo funciona?
+Examina el operador + sobrescrito y describe cómo se fusionan los registros.
+
+4-¿Cómo se busca una persona en el registro por nombre y edad, y qué limita este enfoque?
+Reflexiona sobre el código de la opción 3 del menú e identifica posibles mejoras en la funcionalidad de búsqueda.
+
+5-¿Qué ventajas ofrece el uso de propiedades (@property) en las clases del programa?
+Compara este enfoque con el uso directo de atributos públicos y analiza sus implicaciones.
+
+6-¿Qué ocurre si intentas acceder a una persona por un índice que está fuera de rango?
+Revisa cómo se maneja este error en el método __getitem__ y experimenta con un caso de prueba.
+
+7-¿Cómo personaliza cada clase el método visualizar y qué ventaja tiene este enfoque?
+Observa cómo Empleado y Cliente sobrescriben el método visualizar de la clase Ficha y analiza cómo mejora la presentación de la información en cada caso.
